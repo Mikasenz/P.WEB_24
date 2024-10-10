@@ -1,0 +1,212 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px; 
+    background-color: #ffffff; 
+    border-bottom: 1px solid #ddd; 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px; 
+    margin-right: 1px; 
+}
+
+.logo h1 {
+   margin-right: 10px;
+   font-family: 'Teko';
+   width: 70px;
+   
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 25px; 
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #d9d9d9;
+    position: sticky;
+    
+}
+
+nav {
+    display: flex;
+    gap: 10px; 
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: bold;
+    color: #000000; 
+    padding: 30px 25px; 
+     
+}
+
+nav a:hover{
+    text-decoration: underline;    
+}
+
+.navbar {
+    text-align: center;
+    padding: 5px;
+    background-color: #21242e; 
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block; 
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 50px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'inter';
+    font-weight: bold;
+    color: #ffffff;   
+}
+
+.navbar a:hover{
+    text-decoration: underline;    
+}
+
+
+.hero {
+    display: flex;
+    padding: 40px 40px;
+}
+
+
+.hero-images img {
+    max-width: 1440px;
+    max-height: 480px;
+
+}
+
+.brands {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.brand-logo img {
+    max-width: 300px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    scroll-padding-top: 50px;
+    padding: 40px 20px;
+    background-color: #EAD9FF;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.product-card img {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #414141;
+    border-top: 1px solid #ddd;
+}
+
+.footer-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 70px; 
+    margin-right: 1px;
+}
+
+.footer-text h2 {
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+}
+
+.footer-text p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0;
+}
+
+.footer-links a {
+    text-decoration: none; 
+    font-family: 'inter';
+    font-weight: bold;
+    color: #ffffff; 
+    padding: 10px 20px; 
+    margin: 0 15px; 
+    transition: background-color 0.3s; 
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #000000; 
+}
+
+
+.social-media {
+    text-align: right;
+}
+
+.social-media p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.icons a {
+    margin-right: 10px;
+}
+
+.icons a img {
+    width: 30px;
+}

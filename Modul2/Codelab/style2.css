@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #26720b; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #fd6c48; 
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+    width: 320px; 
+    max-width: 90%; 
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px; 
+    font-size: 18px; 
+}
+
+label {
+    color: white;
+    font-size: 15px; 
+    display: block;
+    margin-bottom: 8px; 
+}
+
+input {
+    width: 100%;
+    padding: 12px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    box-sizing: border-box; 
+    font-size: 14px; 
+}
+
+button {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    width: 100%;
+    padding: 12px; 
+    border: none;
+    border-radius: 6px; 
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: #333; 
+}
+
+
+.alert {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none; 
+}
+
+.alert p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.alert button {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.alert button:hover {
+    background-color: #ddd;
+}
