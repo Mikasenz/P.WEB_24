@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6e6fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.calculator {
+    background-color: #303136;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.display input {
+    width: 100%;
+    padding: 15px;
+    background-color: #222;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #a82f2f;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #fa4e49;
+}
+
+button:active {
+    background-color: #a82f2f;
+}
+
+/* Gaya khusus untuk tombol operator */
+.operator {
+    background-color: #11a204; /* Warna biru */
+    color: white;
+}
+
+.operator:hover {
+    background-color: #3ff02f; /* Biru lebih gelap saat dihover */
+}
+
+.operator:active {
+    background-color: #11a204; /* Biru lebih pekat saat diklik */
+}
